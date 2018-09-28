@@ -12,6 +12,7 @@ class SchoolListViewController: UIViewController {
 
     @IBOutlet weak var schoolTableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
+    
     let schoolVM = SchoolViewModel()
     var searchFlag: Bool = false       //to indicate if we are currently searching a school
     let refreshControl = UIRefreshControl()
